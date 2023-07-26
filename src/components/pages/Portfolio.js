@@ -14,7 +14,7 @@ export default function Portfolio() {
     {
       title: "Dr. Drink",
       description: "Fluff",
-      github: "https://github.com/B-connolly1088/Hot-Takes",
+      github: "https://github.com/B-connolly1088/Dr-Drink",
       deployed: "https://hot-takes-reviews-b29812e3e846.herokuapp.com/",
       src: "./assets/Hot-Takes.png"
     },
