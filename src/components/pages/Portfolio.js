@@ -2,6 +2,10 @@ import React from "react";
 import CardTemplate from "../CardTemplate";
 import hotTakes from "../../images/Hot-Takes.png";
 import drDrink from "../../images/Dr-Drink.png";
+import ecommerce from "../../images/Ecommerce.png"
+import socialapi from "../../images/socialapi.png"
+import employeeTracker from "../../images/employeeTracker.png"
+import readme from "../../images/readme.png"
 
 export default function Portfolio() {
   const projects = [
@@ -16,33 +20,32 @@ export default function Portfolio() {
       title: "Dr. Drink",
       description: "Dr. Drink is a JS application that will help a user with drink recipes for a small business or at home.",
       github: "https://github.com/B-connolly1088/Dr-Drink",
-      deployed: "https://hot-takes-reviews-b29812e3e846.herokuapp.com/",
+      deployed: "https://b-connolly1088.github.io/Dr-Drink/",
       src: drDrink,
     },
     {
       title: "Employee Tracker",
       description: "This JS application allows businesses to perform HR tasks relating to their business.",
       github: "https://github.com/B-connolly1088/employee-tracker",
-      src: drDrink,
+      src: employeeTracker,
     },
     {
       title: "ECommerce Backend",
       description: "This JS application allows an ECommerce business owner to update their stores products.",
       github: "https://github.com/B-connolly1088/ecommerce-backend",
-      src: drDrink,
+      src: ecommerce,
     },
     {
       title: "SocialAPI",
       description: "This JS platform allows users to share thoughts, react to other users thoughts and create a friends list.",
       github: "https://github.com/B-connolly1088/social-api",
-      src: drDrink,
+      src: socialapi,
     },
     {
       title: "README Generator",
       description: "This JS application allows developers to automatically generate their README for projects.",
-      github: "https://github.com/B-connolly1088/Dr-Drink",
-      deployed: "https://hot-takes-reviews-b29812e3e846.herokuapp.com/",
-      src: drDrink,
+      github: "https://github.com/B-connolly1088/instant-readme",
+      src: readme,
     },
   ];
   return (

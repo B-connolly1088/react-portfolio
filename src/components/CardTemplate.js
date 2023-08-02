@@ -11,9 +11,9 @@ export default function CardTemplate({ project, portfolio }) {
         {project.description && <Card.Text>{project.description}</Card.Text>}
       </Card.Body>
       {portfolio && <ListGroup className="list-group-flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
+        {/* <ListGroup.Item>Cras justo odio</ListGroup.Item>
         <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
       </ListGroup>}
       <Card.Body>
         {project.github && (
