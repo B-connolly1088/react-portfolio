@@ -5,7 +5,7 @@ import drDrink from "../../images/Dr-Drink.png";
 import ecommerce from "../../images/Ecommerce.png"
 import socialapi from "../../images/socialapi.png"
 import employeeTracker from "../../images/employeeTracker.png"
-import readme from "../../images/readme.png"
+import budgie from "../../images/budgie-screenshot.png"
 
 export default function Portfolio() {
   const projects = [
@@ -42,10 +42,10 @@ export default function Portfolio() {
       src: socialapi,
     },
     {
-      title: "README Generator",
-      description: "This JS application allows developers to automatically generate their README for projects.",
-      github: "https://github.com/B-connolly1088/instant-readme",
-      src: readme,
+      title: "Budgie",
+      description: "This JS application is a personal finance tracker.",
+      github: "https://github.com/eqmccullough/cache-money",
+      src: budgie
     },
   ];
   return (
