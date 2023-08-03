@@ -10,6 +10,12 @@ import budgie from "../../images/budgie-screenshot.png"
 export default function Portfolio() {
   const projects = [
     {
+      title: "Budgie",
+      description: "This JS application is a personal finance tracker.",
+      github: "https://github.com/eqmccullough/cache-money",
+      src: budgie
+    },
+    {
       title: "Hot Takes",
       description: "Hot Takes is a JS application where useres can go to write amateur reviews of their favorite movies.",
       github: "https://github.com/B-connolly1088/Hot-Takes",
@@ -40,12 +46,6 @@ export default function Portfolio() {
       description: "This JS platform allows users to share thoughts, react to other users thoughts and create a friends list.",
       github: "https://github.com/B-connolly1088/social-api",
       src: socialapi,
-    },
-    {
-      title: "Budgie",
-      description: "This JS application is a personal finance tracker.",
-      github: "https://github.com/eqmccullough/cache-money",
-      src: budgie
     },
   ];
   return (
