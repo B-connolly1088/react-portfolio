@@ -21,7 +21,7 @@ export default function CardTemplate({ project, portfolio }) {
             GitHub Repo
           </Card.Link>
         )}
-        <Card.Link href={project.deployed} target="_blank" download>
+        <Card.Link href={project.deployed} target="_blank" rel="noreferrer" download>
           Deployed App
         </Card.Link>
       </Card.Body>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Headshot from "../../images/Headshot.jpg"
+
 
 export default function About() {
   return (
